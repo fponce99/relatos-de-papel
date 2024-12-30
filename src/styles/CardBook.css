@@ -1,0 +1,15 @@
+.card {
+    border: solid 1px #ab8a6d;
+    border-radius: 8px;
+    background-color: #fffaeb;
+}
+
+.description-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3 {
+    margin: 0px;
+}

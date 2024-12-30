@@ -1,0 +1,10 @@
+.content {
+    padding: 20px 40px;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 20px;
+    justify-content: center;
+}

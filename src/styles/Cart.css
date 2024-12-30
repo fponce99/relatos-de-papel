@@ -1,0 +1,7 @@
+.cart {
+    padding: 20px 20px;
+    border: solid 1px #ab8a6d;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

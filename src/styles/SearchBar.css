@@ -1,0 +1,19 @@
+.searchbar {
+    display: flex;
+    width: 70%;
+    gap: 10px;
+    justify-content: center;
+}
+
+.input {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: solid 1px #ab8a6d;
+    border-radius: 8px;
+    width: 50vh;
+    color: black;s
+}
+
+.search-button {
+    background-color: #ab8a6d;
+}
