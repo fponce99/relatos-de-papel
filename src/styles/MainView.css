@@ -23,17 +23,17 @@
 .content-container > :first-child {
   flex: 1;
   padding: 20px;
-  overflow-y: auto; /* Activa scroll interno si el contenido excede */
+  overflow-y: auto;
 
 }
 
 .content-container > :last-child {
   flex: 0 0 15%;
   position: sticky;
-  top: 80px; /* Ajusta para no solaparse con el Header */
-  height: calc(100vh - 80px); /* Mantén la altura igual a la pantalla menos el header */
+  top: 101px;
+  height: calc(96vh - 101px);
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  overflow-y: auto; /* Activa scroll interno si el contenido del carrito excede */
+  overflow-y: auto;
   z-index: 1000;
 }
 

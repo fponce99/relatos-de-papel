@@ -1,27 +1,18 @@
-import { Header } from '../components/header'
-import { Content } from '../components/Content'
-import { Cart } from '../components/Cart'
-import '../styles/MainView.css'
-import { SearchProvider } from '../utils/context/SearchContext'
-import { CartProvider } from '../utils/context/CartContext';
-import { ProductSelectedProvider } from '../utils/context/ProductSelectedContext';
+import { Header } from "../components/Header";
+import { ContentResult } from "../components/ContentResult";
+import { Cart } from "../components/Cart";
+import "../styles/MainView.css";
 
 function MainView() {
   return (
     <>
-      <SearchProvider>
-        <CartProvider>
-          <ProductSelectedProvider>
-            <Header />
-            <div className='content-container'>
-              <Content />
-              <Cart />
-            </div>
-          </ProductSelectedProvider>
-        </CartProvider>
-      </SearchProvider>
+      <Header />
+      <div className="content-container">
+        <ContentResult />
+        <Cart />
+      </div>
     </>
-  )
+  );
 }
 
 export default MainView;

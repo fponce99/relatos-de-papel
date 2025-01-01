@@ -1,4 +1,5 @@
 import { useState, createContext } from "react";
+import PropTypes from 'prop-types'
 
 const ProductSelectedContext = createContext();
 
@@ -31,5 +32,9 @@ function ProductSelectedProvider({ children }) {
     </ProductSelectedContext.Provider>
   );
 }
+
+ProductSelectedProvider.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export { ProductSelectedContext, ProductSelectedProvider };

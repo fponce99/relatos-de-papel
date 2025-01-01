@@ -1,0 +1,15 @@
+.payment-details {
+    margin: 20px 20%;
+    border: solid 1px #ab8a6d;
+    border-radius: 8px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.field-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
